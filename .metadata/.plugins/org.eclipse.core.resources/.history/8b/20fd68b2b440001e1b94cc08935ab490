@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package seleniumTutorial;
+
+/**
+ * 
+ */
+public class TC1_loginerror {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

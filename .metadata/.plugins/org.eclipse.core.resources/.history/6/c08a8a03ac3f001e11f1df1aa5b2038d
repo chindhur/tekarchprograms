@@ -1,0 +1,28 @@
+package seleniumTutorial;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+
+public class SeleniumProject {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		WebDriverManager.chromedriver().setup();
+		
+		WebDriver driver = new ChromeDriver();
+	//	driver.get("https://selenium-prd.firebaseapp.com/");
+		// driver.findElement(By.id("email_field")).sendKeys("admin123@gmail.com");
+		// driver.findElement(By.id("password_field")).sendKeys("admin123");
+		// driver.findElement(By.xpath("//button[contains(text(),'Login')]")).click();
+		driver.get("https://login.salesforce.com");
+		
+		//Thread.sleep(5000);
+		
+	}
+
+}
+//*[@id="login_div"]/button

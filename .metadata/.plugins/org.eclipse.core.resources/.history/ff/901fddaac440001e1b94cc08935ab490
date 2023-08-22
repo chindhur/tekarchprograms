@@ -1,0 +1,10 @@
+package seleniumTutorial;
+
+public class Tc3_RememberPassword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
